@@ -3,6 +3,11 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
+
+ /*
+ * F0B21D : WMU GOLD
+ * 311707 : WMU BROWN
+ */
 body {
   font-family: 'Open Sans', serif;
   padding-top: 54px;
@@ -26,10 +31,14 @@ h6 {
 
 h1 {
   font-size: 6rem;
-  line-height: 5.5rem; }
+  line-height: 5.5rem;
+}
 
 h2 {
   font-size: 3.5rem; }
+.subtitle {
+  font-size: 1.8rem;
+}
 
 .subheading {
   text-transform: uppercase;
@@ -40,13 +49,17 @@ h2 {
 .list-social-icons a {
   color: #495057; }
   .list-social-icons a:hover {
-    color: #BD5D38; }
+    color: rgba(124, 0, 12, .5); }
   .list-social-icons a .fa-lg {
     font-size: 1.75rem; }
   .list-social-icons {
     padding-top: 20px;
   }
-
+.fa-facebook:hover, .fa-linkedin:hover, .fa-github:hover {
+  -webkit-transform: scale(1.1)!important;
+    -ms-transform: scale(1.1)!important;
+    transform: scale(1.1)!important;
+}
 .list-icons {
   font-size: 3rem; }
   .list-icons .list-inline-item i:hover {
@@ -86,7 +99,8 @@ h2 {
         #sideNav .navbar-collapse .navbar-nav .nav-item {
           display: block; }
           #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
-            display: block; } }
+            display: block;
+            text-align: center; } }
 
 section.resume-section {
   border-bottom: 1px solid #dee2e6;
@@ -99,26 +113,51 @@ section.resume-section {
   section.resume-section {
     min-height: 100vh; }
     section.resume-section .resume-item .resume-date {
-      min-width: 18rem; } }
+      min-width: 18rem; }
+  }
 
 @media (min-width: 992px) {
   section.resume-section {
-    padding-top: 3rem !important;
-    padding-bottom: 3rem !important; } }
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important; } 
+  }
 
 .bg-primary {
-  background-color: #BD5D38 !important; }
+  background-color: #7c000c !important;
+/*background-color: #BD5D38 !important; */}
 
 .text-primary {
-  color: #BD5D38 !important; }
+  color: #7c000c !important;
+/*color: #BD5D38 !important;*/ }
+
+.text-secondary {
+  color: rgba(124, 0, 12, .8) !important;
+}
+
+.hs {
+  padding-top: 75px;
+}
 
 a {
-  color: #BD5D38; }
+  color: #7c000c; }
   a:hover, a:focus, a:active {
-    color: #824027; }
+    color: #420408; }
 
 #sm-name {
   font-family: 'Shadows Into Light Two', cursive;
+}
+
+.Stat-Head {
+  padding-top: 40px;
+}
+
+.legend {
+  padding-top: 20px;
+  font-size: .9rem;
+}
+
+#interests {
+  padding-top: 50px;
 }
 
 .resumeLink {
@@ -137,13 +176,12 @@ a {
 
 .resumeLink:hover {
     background-color: #0d0d0d;
-    -webkit-transform: scale(1.1)!important;
-    -ms-transform: scale(1.1)!important;
-    transform: scale(1.1)!important;
+    text-decoration: none;
+    font-size: 24px;
 }
 
-@media (max-width: 467px)
-(index):44
+/* @media (max-width: 467px) 
+(index):44 
 .resumeLink {
     width: 165px;
-}
+} */
