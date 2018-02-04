@@ -1,13 +1,3 @@
-/*!
- * Start Bootstrap - Resume v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/resume)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
- */
-
- /*
- * F0B21D : WMU GOLD
- * 311707 : WMU BROWN
- */
 body {
   font-family: 'Open Sans', serif;
   padding-top: 54px;
@@ -56,14 +46,14 @@ h2 {
     padding-top: 20px;
   }
 .fa-facebook:hover, .fa-linkedin:hover, .fa-github:hover {
-  -webkit-transform: scale(1.1)!important;
-    -ms-transform: scale(1.1)!important;
-    transform: scale(1.1)!important;
+  -webkit-transform: scale(1.2)!important;
+    -ms-transform: scale(1.2)!important;
+    transform: scale(1.2)!important;
 }
 .list-icons {
   font-size: 3rem; }
   .list-icons .list-inline-item i:hover {
-    color: #BD5D38; }
+    color: rgb(255, 255, 255); }
 
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 600;
@@ -111,13 +101,14 @@ section.resume-section {
 
 @media (min-width: 768px) {
   section.resume-section {
-    min-height: 100vh; }
+    min-height: 50vh; }
     section.resume-section .resume-item .resume-date {
       min-width: 18rem; }
   }
 
 @media (min-width: 992px) {
   section.resume-section {
+    min-height: 80vh;
     padding-top: 2rem !important;
     padding-bottom: 2rem !important; } 
   }
@@ -135,7 +126,7 @@ section.resume-section {
 }
 
 .hs {
-  padding-top: 75px;
+  padding-top: 20px;
 }
 
 a {
@@ -145,6 +136,8 @@ a {
 
 #sm-name {
   font-family: 'Shadows Into Light Two', cursive;
+  font-style: italic;
+  font-weight: bolder;
 }
 
 .Stat-Head {
@@ -180,8 +173,69 @@ a {
     font-size: 24px;
 }
 
-/* @media (max-width: 467px) 
-(index):44 
-.resumeLink {
-    width: 165px;
-} */
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+button:focus {
+  outline: 5px auto rgba(255, 255, 255, 0.5);
+}
+
+#longName {
+  white-space: nowrap;
+}
+
+@media (max-width: 992px) {
+  .resume-section{
+    text-align: center;
+  }
+  ul {
+    text-align: left;
+  }
+  #education h3 {
+    float: none;
+    text-align: center;
+  }
+  #education .mr-auto {
+    margin-right: inherit !important;
+  }
+}
+
+@media (width: 768px) {
+  .resume-section{
+    text-align: center;
+  }
+  ul {
+    text-align: left;
+  }
+  #education h3 {
+    display: inline-block;
+    float: none;
+    text-align: center;
+  }
+  #education .mr-auto {
+    margin-right: inherit !important;
+  }
+  .move-right {
+    margin-left: 35px;
+  }
+  .move-right-more {
+    margin-left: 70px;
+  }
+  .move-left {
+    margin-left: 20px;
+  }
+  .move-left-more {
+    margin-left: 60px;
+  }
+}
+
+.mr{
+  padding-left: 10px;
+}

@@ -3632,12 +3632,13 @@ tbody.collapse.show {
 
 .navbar-nav {
   display: -ms-flexbox;
-  display: flex;
+  display: inline-block;
   -ms-flex-direction: column;
       flex-direction: column;
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  text-align: center;
 }
 
 .navbar-nav .nav-link {
