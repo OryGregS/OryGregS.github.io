@@ -39,7 +39,7 @@ h2 {
 .list-social-icons a {
   color: #495057; }
   .list-social-icons a:hover {
-    color: rgba(124, 0, 12, .5); }
+    color: rgb(2, 78, 116, .5); }
   .list-social-icons a .fa-lg {
     font-size: 1.75rem; }
   .list-social-icons {
@@ -114,15 +114,15 @@ section.resume-section {
   }
 
 .bg-primary {
-  background-color: #7c000c !important;
+  background-color: rgb(2, 78, 116) !important;
 /*background-color: #BD5D38 !important; */}
 
 .text-primary {
-  color: #7c000c !important;
+  color: #0394DE !important;
 /*color: #BD5D38 !important;*/ }
 
 .text-secondary {
-  color: rgba(124, 0, 12, .8) !important;
+  color: rgba(3, 148, 222, .8) !important;
 }
 
 .hs {
@@ -130,9 +130,9 @@ section.resume-section {
 }
 
 a {
-  color: #7c000c; }
+  color: #0394DE; }
   a:hover, a:focus, a:active {
-    color: #420408; }
+    color: rgb(2, 84, 124); }
 
 #sm-name {
   font-family: 'Shadows Into Light Two', cursive;
