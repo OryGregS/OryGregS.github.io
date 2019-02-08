@@ -95,7 +95,7 @@ h2 {
 section.resume-section {
   border-bottom: 1px solid #dee2e6;
   padding-top: 5rem !important;
-  padding-bottom: 5rem !important; }
+  padding-bottom: 5rem !important}
   section.resume-section .resume-item .resume-date {
     min-width: none; }
 
@@ -110,8 +110,17 @@ section.resume-section {
   section.resume-section {
     min-height: 80vh;
     padding-top: 2rem !important;
-    padding-bottom: 2rem !important; } 
+    padding-bottom: 2rem !important;} 
   }
+@media (min-width: 992px) {
+  #about {
+    
+    padding-right: 10rem !important;
+    padding-left: 10rem !important;
+    text-align: center
+
+  }
+}
 
 .bg-primary {
   background-color: rgb(2, 78, 116) !important;
