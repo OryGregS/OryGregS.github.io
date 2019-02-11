@@ -37,18 +37,23 @@ h2 {
   font-size: 1.35rem; }
 
 .list-social-icons a {
-  color: #495057; }
+  color: #495057;
+  text-align: center !important;
+ }
   .list-social-icons a:hover {
     color: rgb(2, 78, 116, .5); }
   .list-social-icons a .fa-lg {
-    font-size: 1.75rem; }
+    font-size: 2rem; 
+    text-align: center;}
   .list-social-icons {
-    padding-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center !important;
   }
 .fa-facebook:hover, .fa-linkedin:hover, .fa-github:hover {
-  -webkit-transform: scale(1.2)!important;
-    -ms-transform: scale(1.2)!important;
-    transform: scale(1.2)!important;
+  -webkit-transform: scale(1.25)!important;
+    -ms-transform: scale(1.25)!important;
+    transform: scale(1.25)!important;
 }
 .list-icons {
   font-size: 3rem; }
