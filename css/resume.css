@@ -41,7 +41,8 @@ h2 {
   text-align: center !important;
  }
   .list-social-icons a:hover {
-    color: rgb(2, 78, 116, .5); }
+    
+    color: rgb(61, 2, 116);  }
   .list-social-icons a .fa-lg {
     font-size: 2rem; 
     text-align: center;}
@@ -128,15 +129,15 @@ section.resume-section {
 }
 
 .bg-primary {
-  background-color: rgb(2, 78, 116) !important;
+  background-color: rgb(61, 2, 116) !important;
 /*background-color: #BD5D38 !important; */}
 
 .text-primary {
-  color: #0394DE !important;
+  color: rgb(61, 2, 116) !important;
 /*color: #BD5D38 !important;*/ }
 
 .text-secondary {
-  color: rgba(3, 148, 222, .8) !important;
+  color: rgba(80, 3, 222, 0.8) !important;
 }
 
 .hs {
@@ -144,9 +145,10 @@ section.resume-section {
 }
 
 a {
-  color: #0394DE; }
+  color: rgb(116, 3, 222); }
   a:hover, a:focus, a:active {
-    color: rgb(2, 84, 124); }
+    color: rgb(61, 2, 116); 
+  }
 
 #sm-name {
   font-family: 'Shadows Into Light Two', cursive;
@@ -198,7 +200,7 @@ a {
 }
 
 button:focus {
-  outline: 5px auto rgba(255, 255, 255, 0.5);
+  outline: 5px auto rgba(255, 255, 255, 0.5) !important;
 }
 
 #longName {
